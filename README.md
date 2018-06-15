@@ -16,9 +16,10 @@ Features
   - PostgresSql
   - Microsoft Parallel Data Warehouse (a.k.a. Analytics Platform System)
   - Amazon Redshift
-  - Apache Impala
+  - Apache Impala(with Kerberos support)
   - Google BigQuery
   - IBM Netezza
+  - Hive(with Kerberos support)
 - Statements for executing queries with 
   - Error reporting to file
   - Progress reporting
