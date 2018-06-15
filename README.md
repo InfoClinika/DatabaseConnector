@@ -81,19 +81,22 @@ For Redshift Bulk Mpp inserts, the cloudyR aws S3 pacakge is required.
 
 Getting Started
 ===============
-To install the latest stable version, install from CRAN:
-
-```r
-install.packages("DatabaseConnector")
-```
-  
-  
 To install the latest development version, install from GitHub:
 
 ```r
 install.packages("devtools")
-devtools::install_github("ohdsi/DatabaseConnectorJars")
-devtools::install_github("ohdsi/DatabaseConnector")
+
+install.packages("https://github.com/InfoClinika/DatabaseConnectorJars/releases/download/v1.1.0/DatabaseConnectorJars_1.1.0-source.tar.gz", repo=NULL, type="source")
+devtools::install_github("Infoclinika/DatabaseConnector")
+```
+
+Or you can download latest release from [DatabaseConnectorJars repository](https://github.com/InfoClinika/DatabaseConnectorJars/releases) and install it from local file
+
+```r
+install.packages("devtools")
+ 
+install.packages("/path/to/file/DatabaseConnectorJars_1.1.0-source.tar.gz", repo=NULL, type="source")
+devtools::install_github("Infoclinika/DatabaseConnector")
 ```
 
 Getting Involved
